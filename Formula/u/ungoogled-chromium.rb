@@ -33,7 +33,6 @@ class UngoogledChromium < Formula
     depends_on "libxfixes"
     depends_on "libxkbcommon"
     depends_on "libxrandr"
-
   end
 
   def install
