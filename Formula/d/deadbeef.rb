@@ -10,7 +10,6 @@ class Deadbeef < Formula
     depends_on "openssl@3"
   end
 
-
   def install
     prefix.install Dir["*"]
     mkdir_p bin
