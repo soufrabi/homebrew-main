@@ -6,6 +6,11 @@ class Deadbeef < Formula
   sha256 "aa17741053f63a7fceace003bf269bd4c4c9e55e42ee14286d9fbf34fbc8e014"
   license "GPL-2.0-only"
 
+  on_linux do
+    depends_on "openssl@3"
+  end
+
+
   def install
     prefix.install Dir["*"]
     mkdir_p bin
