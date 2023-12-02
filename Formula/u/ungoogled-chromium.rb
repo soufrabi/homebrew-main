@@ -25,6 +25,7 @@ class UngoogledChromium < Formula
     depends_on "libnssutil3"
     depends_on "libpango"
     depends_on "libsmime3"
+    depends_on "libxcb"
     depends_on "libx11"
     depends_on "libxcomposite"
     depends_on "libxdamage"
@@ -32,7 +33,7 @@ class UngoogledChromium < Formula
     depends_on "libxfixes"
     depends_on "libxkbcommon"
     depends_on "libxrandr"
-    depends_on "libxcb"
+
   end
 
   def install
