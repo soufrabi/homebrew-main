@@ -1,10 +1,10 @@
-# Soufrabi Soufrabi
+# Homebrew Tap : Soufrabi Main
 
 ## How do I install these formulae?
 
-`brew install soufrabi/soufrabi/<formula>`
+`brew install soufrabi/main/<formula>`
 
-Or `brew tap soufrabi/soufrabi` and then `brew install <formula>`.
+Or `brew tap soufrabi/main` and then `brew install <formula>`.
 
 ## Documentation
 
